@@ -326,3 +326,15 @@
   background-color: color-mix(in srgb, var(--ctp-sapphire) 20%, transparent);
   color: var(--ctp-sapphire);
 }
+
+.md-typeset .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.md-typeset .hero-actions .md-button {
+  margin: 0;
+}
