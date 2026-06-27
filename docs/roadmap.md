@@ -51,4 +51,4 @@
 
 ## Vote on Features
 
-Have a suggestion? Open a [GitHub issue](https://github.com/DarvanDev/skillforge/issues) or join our [Discord](https://discord.gg/skillforge).
+Have a suggestion? Open a [GitHub issue](https://github.com/DarvanDev/skillforge/issues).

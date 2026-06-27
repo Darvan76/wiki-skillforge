@@ -209,12 +209,11 @@ SkillTree.Config.General.Debug = true
 ### Where can I get help?
 
 - [GitHub Issues](https://github.com/DarvanDev/skillforge/issues)
-- [Discord Server](https://discord.gg/skillforge)
 - [GModStore Page](https://www.gmodstore.com/market/skillforge)
 
 ### How do I report a bug?
 
-Open an issue on GitHub or contact us on Discord. Include:
+Open a GitHub issue. Include:
 - Server OS
 - DarkRP version
 - Other addons installed

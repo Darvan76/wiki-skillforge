@@ -51,10 +51,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/DarvanDev/skillforge
       name: GitHub
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/skillforge
-      name: Discord
-    - icon: fontawesome/solid/cart-shopping
+     - icon: fontawesome/solid/cart-shopping
       link: https://www.gmodstore.com/market/skillforge
       name: GModStore
   generator: false

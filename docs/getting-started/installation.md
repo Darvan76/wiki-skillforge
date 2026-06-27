@@ -95,7 +95,7 @@ Esto abrirá el panel de administración HTML.
 | El HUD no se ve | `EnableHUD = false` en config | Cambia a `true` en `sh_config.lua` |
 | Error "Unknown command" | Loader no se ejecutó | Verifica que `skillforge_loader.lua` esté en `autorun/` |
 
-Si los problemas persisten, visita la página de [Troubleshooting](../troubleshooting.md) o únete a nuestro [Discord](https://discord.gg/skillforge).
+Si los problemas persisten, visita la página de [Troubleshooting](../troubleshooting.md).
 
 ---
 
