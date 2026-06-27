@@ -1,0 +1,120 @@
+:root {
+  --skillforge-purple: #7850ff;
+  --skillforge-cyan: #50c8ff;
+  --skillforge-gold: #ffd24b;
+  --skillforge-dark: #0f0f19;
+}
+
+.md-typeset h1 {
+  color: var(--skillforge-purple);
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  color: var(--skillforge-cyan);
+  font-weight: 700;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.md-typeset pre > code {
+  border-left: 3px solid var(--skillforge-purple);
+}
+
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--skillforge-cyan);
+}
+
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset details.note > summary {
+  background-color: rgba(80, 200, 255, 0.1);
+  border-color: var(--skillforge-cyan);
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--skillforge-gold);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  background-color: rgba(255, 210, 75, 0.1);
+  border-color: var(--skillforge-gold);
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #ff6e40;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: rgba(255, 110, 64, 0.1);
+  border-color: #ff6e40;
+}
+
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--skillforge-purple);
+  color: white;
+  font-weight: 700;
+}
+
+.md-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.md-tabs {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(135deg, #0f0f19 0%, #1a1a2e 100%);
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(120, 80, 255, 0.15);
+}
+
+.md-typeset .task-list-control .task-list-indicator::before {
+  background-color: var(--skillforge-purple);
+}
+
+.md-typeset .md-button {
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 0.5em 1.5em;
+  transition: all 0.2s ease;
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--skillforge-purple);
+  border-color: var(--skillforge-purple);
+  color: white !important;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #6230e0;
+  border-color: #6230e0;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(120, 80, 255, 0.3);
+}

@@ -1,0 +1,191 @@
+site_name: Darvan's Skillforge
+site_description: Documentación oficial del sistema avanzado de Skill Trees para DarkRP — 28 efectos, 12 permisos, 5 integraciones, 7 árboles por defecto
+site_url: https://darvandev.github.io/skillforge-wiki/
+repo_url: https://github.com/DarvanDev/skillforge
+repo_name: DarvanDev/skillforge
+edit_uri: blob/main/docs/
+copyright: Copyright &copy; 2026 Darvan Development
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/star-four-points
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - content.tabs.link
+    - content.action.edit
+    - header.autohide
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DarvanDev/skillforge
+      name: GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/skillforge
+      name: Discord
+    - icon: fontawesome/solid/cart-shopping
+      link: https://www.gmodstore.com/market/skillforge
+      name: GModStore
+  generator: false
+
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang:
+        - en
+        - es
+        - fr
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: datetime
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - glightbox
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Requirements: getting-started/requirements.md
+    - Quickstart: getting-started/quickstart.md
+  - Configuration:
+    - configuration/index.md
+    - General Settings: configuration/general.md
+    - Visual Theme: configuration/theme.md
+    - Leveling System: configuration/leveling.md
+    - XP Sources: configuration/xp-sources.md
+    - Anti-Exploit: configuration/anti-exploit.md
+    - Stat Limits: configuration/limits.md
+    - Reset System: configuration/reset-system.md
+    - Prestige System: configuration/prestige.md
+    - Daily Missions: configuration/dailies.md
+    - Achievements: configuration/achievements.md
+    - Base Stats: configuration/base-stats.md
+  - Job System:
+    - job-system/index.md
+    - Progression Modes: job-system/progression-modes.md
+    - Job-Tree Mapping: job-system/job-tree-mapping.md
+    - Job XP Config: job-system/job-xp-config.md
+    - Allowed Skills: job-system/allowed-skills.md
+  - Skill Trees:
+    - skill-trees/index.md
+    - Tree Structure: skill-trees/tree-structure.md
+    - Branches: skill-trees/branches.md
+    - Nodes: skill-trees/nodes.md
+    - Effect Types: skill-trees/effect-types.md
+    - Active Abilities: skill-trees/active-abilities.md
+    - Prerequisites: skill-trees/prerequisites.md
+    - Validation: skill-trees/validation.md
+  - Integrations:
+    - DarkRP Core: integrations/darkrp-core.md
+    - Police: integrations/police.md
+    - Medic: integrations/medic.md
+    - Criminal: integrations/criminal.md
+    - Economy: integrations/economy.md
+    - Garbage: integrations/garbage.md
+  - Player Experience:
+    - HUD: player-experience/hud.md
+    - Level-Up Effects: player-experience/level-up-fx.md
+    - Notifications: player-experience/notifications.md
+    - Scoreboard: player-experience/scoreboard.md
+    - Localization: player-experience/language.md
+  - Administration:
+    - administration/index.md
+    - Permissions: administration/permissions.md
+    - Console Commands: administration/console-commands.md
+    - ULX Commands: administration/ulx-commands.md
+    - Admin Panel: administration/admin-panel.md
+    - Backups: administration/backups.md
+    - Logs: administration/logs.md
+  - Developer Reference:
+    - developer/index.md
+    - API Reference: developer/api-reference.md
+    - Player Methods: developer/player-methods.md
+    - Hooks: developer/hooks.md
+    - Callbacks: developer/callbacks.md
+    - Job XP API: developer/job-xp-api.md
+    - Integration API: developer/integration-api.md
+    - Custom Integration: developer/custom-integration.md
+    - Examples: developer/examples.md
+  - Visual Editor:
+    - visual-editor/index.md
+    - Getting Started: visual-editor/getting-started.md
+    - Creating Trees: visual-editor/creating-trees.md
+    - Editing Nodes: visual-editor/editing-nodes.md
+    - Branches & Connections: visual-editor/branches-and-connections.md
+    - Export & Import: visual-editor/export-import.md
+  - Networking:
+    - Net Messages: networking/net-messages.md
+    - Rate Limiting: networking/rate-limiting.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+  - Roadmap: roadmap.md
