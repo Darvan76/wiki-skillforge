@@ -208,7 +208,7 @@ SkillTree.Config.General.Debug = true
 
 ### Where can I get help?
 
-- [GitHub Issues](https://github.com/DarvanDev/skillforge/issues)
+- [GitHub Issues](https://github.com/Darvan76/wiki-skillforge/issues)
 - [GModStore Page](https://www.gmodstore.com/market/skillforge)
 
 ### How do I report a bug?

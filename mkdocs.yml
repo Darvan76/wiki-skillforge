@@ -1,8 +1,8 @@
 site_name: Darvan's Skillforge
 site_description: Documentación oficial del sistema avanzado de Skill Trees para DarkRP — 28 efectos, 12 permisos, 5 integraciones, 7 árboles por defecto
-site_url: https://darvandev.github.io/skillforge-wiki/
-repo_url: https://github.com/DarvanDev/skillforge
-repo_name: DarvanDev/skillforge
+site_url: https://darvan76.github.io/wiki-skillforge/
+repo_url: https://github.com/Darvan76/wiki-skillforge
+repo_name: Darvan76/wiki-skillforge
 edit_uri: blob/main/docs/
 copyright: Copyright &copy; 2026 Darvan Development
 
@@ -49,7 +49,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/DarvanDev/skillforge
+      link: https://github.com/Darvan76/wiki-skillforge
       name: GitHub
      - icon: fontawesome/solid/cart-shopping
       link: https://www.gmodstore.com/market/skillforge
