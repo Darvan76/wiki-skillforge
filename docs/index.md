@@ -5,12 +5,12 @@
   28 efectos · 12 permisos · 6 integraciones · 9 árboles por defecto · 150+ puntos de personalización
 </p>
 
-<div class="hero-actions" markdown>
-[⚡ Instalar ahora](getting-started/installation.md){ .md-button .md-button--primary }
-[⚙️ Configurar](configuration/index.md){ .md-button }
-[📚 API Reference](developer/api-reference.md){ .md-button }
-[❓ FAQ](faq.md){ .md-button }
-</div>
+<p align="center" class="hero-actions">
+  <a href="https://darvan76.github.io/wiki-skillforge/getting-started/installation/" class="md-button md-button--primary">⚡ Instalar ahora</a>
+  <a href="https://darvan76.github.io/wiki-skillforge/configuration/" class="md-button">⚙️ Configurar</a>
+  <a href="https://darvan76.github.io/wiki-skillforge/developer/api-reference/" class="md-button">📚 API Reference</a>
+  <a href="https://darvan76.github.io/wiki-skillforge/faq/" class="md-button">❓ FAQ</a>
+</p>
 
 ---
 
@@ -90,8 +90,8 @@ Cada jugador gana XP realizando acciones propias de su trabajo y gasta puntos de
 
 Sigue la [guía de instalación](getting-started/installation.md) para instalar Skillforge en tu servidor, o explora la [documentación de configuración](configuration/index.md) para personalizar cada aspecto del sistema.
 
-<div class="hero-actions" markdown>
-[🚀 Comenzar](getting-started/installation.md){ .md-button .md-button--primary }
-[📋 Changelog](changelog.md){ .md-button }
-[🗺️ Roadmap](roadmap.md){ .md-button }
-</div>
+<p align="center" class="hero-actions">
+  <a href="https://darvan76.github.io/wiki-skillforge/getting-started/installation/" class="md-button md-button--primary">🚀 Comenzar</a>
+  <a href="https://darvan76.github.io/wiki-skillforge/changelog/" class="md-button">📋 Changelog</a>
+  <a href="https://darvan76.github.io/wiki-skillforge/roadmap/" class="md-button">🗺️ Roadmap</a>
+</p>

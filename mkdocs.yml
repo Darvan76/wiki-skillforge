@@ -147,6 +147,7 @@ nav:
     - Medic: integrations/medic.md
     - Criminal: integrations/criminal.md
     - Economy: integrations/economy.md
+    - Food: integrations/food.md
     - Garbage: integrations/garbage.md
   - Player Experience:
     - HUD: player-experience/hud.md
